@@ -1,0 +1,33 @@
+{
+  "name": "ahj-cloud-backend",
+  "version": "1.0.0",
+  "description": "ahj-cloud-backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tatiana0325/ahj-cloud-backend.git"
+  },
+  "author": "Tatiana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tatiana0325/ahj-cloud-backend/issues"
+  },
+  "homepage": "https://github.com/Tatiana0325/ahj-cloud-backend#readme",
+  "dependencies": {
+    "forever": "^3.0.2",
+    "http-event-stream": "^0.2.0",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-router": "^9.4.0",
+    "koa-static": "^5.0.0",
+    "uuid": "^8.3.1",
+    "ws": "^7.3.1"
+  },
+  "engines": {
+    "node": "11.x"
+  }
+}
